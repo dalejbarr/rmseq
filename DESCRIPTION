@@ -1,0 +1,21 @@
+Package: rmseq
+Title: Constrained Random Sequence Generation for Repeated-Measures Experiments
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Dale",
+           family = "Barr",
+           role = c("aut", "cre"),
+           email = "dalejbarr@protonmail.com",
+           comment = c(ORCID = "0000-0002-1121-4608"))
+Description:
+  Functions for generating constrained random sequences that can be used in
+  repeated-measures experiments.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
